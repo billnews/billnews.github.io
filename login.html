@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        form {
+
+
+            width: 400px;
+            box-shadow: 0px 0px 20px #c6c6c6;
+            text-align: center;
+            border-radius: 5px
+        }
+
+        input {
+            width: 90%;
+            height: 31px;
+            border-radius: 5px;
+            border: solid 1px #d9d9d9;
+            margin: 4px;
+            margin-bottom: 10px;
+            margin-top: 10px
+        }
+
+        input.inp {
+            padding-left: 7px;
+
+        }
+
+        #create_account {
+            border: solid;
+            padding: 10px;
+            display: inline-block;
+            border-radius: 10px;
+            font-size: 13px;
+            color: white;
+            font-family: sans-serif;
+            text-decoration: none;
+            background-color: #42b72a;
+
+        }
+
+        #submit {
+            width: 20%;
+            height: 31px;
+            color: white;
+            font-family: sans-serif;
+            text-decoration: none;
+            background-color: #1877f2;
+            text-align: center;
+            font-weight: 800;
+
+        }
+
+        #Forgot_Password {
+            text-decoration: none;
+            font-family: sans-serif;
+
+            color: #1877f2;
+        }
+
+        placeholder {
+            text-align: center;
+        }
+
+        ::placeholder {
+            /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color (59, 59, 59);
+            opacity: 1;
+            /* Firefox */
+        }
+
+        :-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: (59, 59, 59);
+        }
+
+        ::-ms-input-placeholder {
+            /* Microsoft Edge */
+            color: (59, 59, 59);
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <input type="Username" class="inp" placeholder="Email or Phone Number" name="Login Info">
+        <br>
+        <input type="Password" class="inp" placeholder="Password" name="Password">
+        <br>
+        <input type="submit" id="submit" value="Log In">
+        <br>
+        <a href="form.html" id="Forgot_Password">Forgot Password</a>
+        <hr>
+        <a id="create_account" href="">New Account</a>
+
+    </form>
+
+</body>
+
+</html>
