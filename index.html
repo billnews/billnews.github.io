@@ -1,363 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Index</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
-    <style>
-        .icon-social-facebook {
-            text-decoration: none;
-        }
-
-        /*_.-._*/
-        #social {
-            padding: 100px;
-            text-align: center;
-        }
-
-        .icon {
-            font-size: 30px;
-        }
-
-        p {
-            position: fixed;
-            top: 0;
-        }
-
-        nav.navbar {
-            position: fixed;
-            width: 100%;
-            top: 0;
-        }
-
-        nav a {
-            font-size: 3rem;
-        }
-
-        a {
-            color: black;
-        }
-
-        i {
-            font-size: 30px;
-            text-align: center;
-            text-decoration: none;
-        }
-
-        li i {
-            font-size: 50px;
-
-        }
-
-        * {
-            font-family: 'Lato', sans-serif;
-            font-size: 10px;
-        }
-
-        body {
-            margin: 0;
-        }
-
-        .icons {
-            height: 50px;
-            width: 50px;
-            font-size: 35px;
-            border-radius: 50%;
-            color: rgba(29, 128, 159);
-            background-color: #9ee7ff;
-            display: inline-block;
-            box-sizing: border-box;
-            padding: 0px 3px 0 3px;
-            text-align: center;
-            margin: 20px;
-        }
-
-        #bar1 {
-            width: 100%;
-            height: 80px;
-            text-transform: uppercase;
-            position: fixed;
-            top: 0;
-            margin: auto;
-            background-color: #18183c;
-            border: solid #18183c;
-            z-index: 100;
-            font-size: 50px;
-            text-align: left;
-            font-family: 'Lato', sans-serif;
-        }
-
-        div {}
-
-        #div1 {
-            background-image: url(https://www.1zoom.me/big2/37/183195-frederika.jpg);
-            float: right;
-            width: 100%;
-            background-size: cover;
-            text-align: center;
-            height: 600px;
-            font-size: 200px;
-        }
-
-        #div2 {
-            background-image: url(https://www.czechuniversities.com/uploads/2021/02/astronaut-deep-space.jpg);
-            float: right;
-            width: 100%;
-            color: beige;
-            font-size: 6rem;
-            background-size: cover;
-
-        }
-
-        header:first-letter {
-            font-family: monospace;
-            font-size: 100px;
-            color: aqua;
-
-        }
-
-        header {
-            text-align: center;
-            font-family: monospace;
-            font-size: 50px;
-            padding-top: 100px;
-            color: white;
-        }
-
-        blockquote {
-            font-size: 50px;
-            padding: 100px;
-            transition-duration: 2s;
-            color: white;
-            text-shadow: 10px 0px white;
-            text-shadow: 20px 0px white;
-        }
-
-        blockquote:hover {
-            transition-duration: 2s;
-
-            text-align: center;
-            transform: rotate(360deg);
-        }
-
-        li {
-            font-size: 58px;
-        }
-
-        article {
-            font-size: 50px;
-        }
-
-        #div3 {
-            padding: 100px;
-        }
-
-        h1 {
-            font-size: 4rem;
-            color: black;
-            text-align: center;
-        }
-
-        #div4 {
-            background-image: url(https://twinfinite.net/wp-content/uploads/2021/07/Mini-Motorways-Screen.jpg);
-            width: 100%;
-            height: 400px;
-            background-size: 100%;
-
-        }
-
-        #div5 {
-            font-size: 12rem;
-            text-align: center;
-        }
-
-        footer {
-            text-align: center;
-        }
-
-        #div6 {
-            background-image: url(https://t3.ftcdn.net/jpg/03/27/94/84/360_F_327948467_Wo2IMoWyNGB4J85wJrLX5Q0mF8Vr6gST.jpg);
-            width: 100%;
-            height: 400px;
-            background-size: 100%;
-        }
-
-        #div7 {
-            bordeR: solid white;
-            width: 49%;
-            background-image: url(https://c.stocksy.com/a/iCJ300/z9/788808.jpg);
-            background-size: cover;
-            float: left;
-        }
-
-        #div8 {
-            bordeR: solid white;
-            width: 49%;
-            background-image: url(https://i.pinimg.com/originals/c8/96/ed/c896edf1393bbdca14d7237ad6de22fc.jpg);
-            background-size: cover;
-            float: right;
-
-        }
-
-        #div9 {
-            border: solid white;
-            background-image: url(https://m.faz.net/media1/ppmedia/1823378573/1.4224281/mmobject-still_full/schreibt-am-liebsten-ueber.jpg);
-            background-size: cover;
-            float: right;
-            width: 49%;
-        }
-
-        #div11 {
-            background-image: url(https://m.faz.net/media1/ppmedia/1823378573/1.4224281/mmobject-still_full/schreibt-am-liebsten-ueber.jpg);
-        }
-
-        #div16 {
-            width: 50%;
-            font-size: 30px;
-        }
-
-        section {
-            /* width: 80%;*/
-            /* 50% relative the container width */
-            margin-top: 67%;
-            /*            border: solid;*/
-        }
-
-        /*        author */
-        #author #div16,
-        #author #div9 {
-            display: inline-block;
-        }
-
-        #media {
-            background-image: url(https://camo.envatousercontent.com/43f27e771af053ae7be9a12af102a95e122bb3d3/687474703a2f2f692e696d6775722e636f6d2f345136644867572e6a7067);
-            width: 100%;
-            height: 400px;
-            background-size: 100%;
-        }
-
-        .DEAD {
-            padding: 200px;
-        }
-
-        li a {
-            font-size: 50px;
-        }
-
-        a {
-            text-decoration: none;
-        }
-    </style>
-</head>
-
-<body id="top">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#top">Home</a>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Stylish Portfolio - Start Bootstrap Template</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Simple line icons-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+        <nav id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand"><a href="#page-top">Start Bootstrap</a></li>
+                <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
+                <li class="sidebar-nav-item"><a href="#about">About</a></li>
+                <li class="sidebar-nav-item"><a href="#services">Services</a></li>
+                <li class="sidebar-nav-item"><a href="#portfolio">Portfolio</a></li>
+                <li class="sidebar-nav-item"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Header-->
+        <header class="masthead d-flex align-items-center">
+            <div class="container px-4 px-lg-5 text-center">
+                <h1 class="mb-1">Stylish Portfolio</h1>
+                <h3 class="mb-5"><em>A Free Bootstrap Theme by Start Bootstrap</em></h3>
+                <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="content-section bg-light" id="about">
+            <div class="container px-4 px-lg-5 text-center">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-10">
+                        <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
+                        <p class="lead mb-5">
+                            This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at
+                            <a href="https://unsplash.com/">Unsplash</a>
+                            !
+                        </p>
+                        <a class="btn btn-dark btn-xl" href="#services">What We Offer</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services-->
+        <section class="content-section bg-primary text-white text-center" id="services">
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading">
+                    <h3 class="text-secondary mb-0">Services</h3>
+                    <h2 class="mb-5">What We Offer</h2>
+                </div>
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-screen-smartphone"></i></span>
+                        <h4><strong>Responsive</strong></h4>
+                        <p class="text-faded mb-0">Looks great on any screen size!</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-pencil"></i></span>
+                        <h4><strong>Redesigned</strong></h4>
+                        <p class="text-faded mb-0">Freshly redesigned for Bootstrap 5.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-like"></i></span>
+                        <h4><strong>Favorited</strong></h4>
+                        <p class="text-faded mb-0">
+                            Millions of users
+                            <i class="fas fa-heart"></i>
+                            Start Bootstrap!
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-mustache"></i></span>
+                        <h4><strong>Question</strong></h4>
+                        <p class="text-faded mb-0">I mustache you a question...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Callout-->
+        <section class="callout">
+            <div class="container px-4 px-lg-5 text-center">
+                <h2 class="mx-auto mb-5">
+                    Welcome to
+                    <em>your</em>
+                    next website!
+                </h2>
+                <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/theme/stylish-portfolio/">Download Now!</a>
+            </div>
+        </section>
+        <!-- Portfolio-->
+        <section class="content-section" id="portfolio">
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading text-center">
+                    <h3 class="text-secondary mb-0">Portfolio</h3>
+                    <h2 class="mb-5">Recent Projects</h2>
+                </div>
+                <div class="row gx-0">
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="#!">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Stationary</div>
+                                    <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio-1.jpg" alt="..." />
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="#!">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Ice Cream</div>
+                                    <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio-2.jpg" alt="..." />
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="#!">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Strawberries</div>
+                                    <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio-3.jpg" alt="..." />
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="#!">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Workspace</div>
+                                    <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio-4.jpg" alt="..." />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Call to Action-->
+        <section class="content-section bg-primary text-white">
+            <div class="container px-4 px-lg-5 text-center">
+                <h2 class="mb-4">The buttons below are impossible to resist...</h2>
+                <a class="btn btn-xl btn-light me-4" href="#!">Click Me!</a>
+                <a class="btn btn-xl btn-dark" href="#!">Look at Me!</a>
+            </div>
+        </section>
+        <!-- Map-->
+        <div class="map" id="contact">
+            <iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+            <br />
+            <small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a></small>
+        </div>
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container px-4 px-lg-5">
+                <ul class="list-inline mb-5">
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-facebook"></i></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#wad">What I do</a>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-twitter"></i></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#cv">My CV</a>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white" href="#!"><i class="icon-social-github"></i></a>
                     </li>
                 </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                <p class="text-muted small mb-0">Copyright &copy; Your Website 2023</p>
             </div>
-        </div>
-    </nav>
-
-    <div id="div1">
-        <header>This is my homepage</header>
-        <blockquote> BAHAHAHA why not</blockquote>
-    </div>
-    <form action="">
-        <input type="text">
-    </form>
-    <div id="div3">
-        <h1>Hello to my new awesomesauce Website!</h1>
-        <i>-said someone once while building his website for fun while vibing</i>
-    </div>
-
-    <div id="div4">
-
-    </div>
-    <h3>What you see there is one of my favourite games! </h3>
-
-    <div id="div5" >What I do:</div>
-    <ul  id="wad">
-        <li>Try to save lives <i class="icon-plus"></i></li>
-        <li>bang on keyboards <i class="icon-globe "></i></li>
-        <li>Read Stuff <i class="icon-notebook"></i></li>
-        <li>Go to School <i class="icon-graduation"></i></li>
-        <li>Netflix and Chill <i class="icon-screen-tablet"></i></li>
-        <li>sit around <i class="icon-ghost"></i></li>
-        <li>get rickrolled by the whole server...</li>
-    </ul>
-
-    <div id="div6">
-    </div>
-    <i>the web rendered into a pyhysical form</i>
-    <div id="div5" >CV: </div>
-    <footer id="cv">and yes it looks like an emoji face :V</footer>
-    <ul>
-        <li><a href="http://www.mb-gym-mfr.de/HMM%20Ausschreibung%20Eltern%202021.pdf" target=”_blank”>Local Gifted Program</a></li>
-        <hr>
-        <li><a href="https://www.jugend-musiziert.org/" target=”_blank”>1st Prize in a National Music Competition </a></li>
-        <hr>
-        <li><a href="https://www.fuemo.de/" target=”_blank”>1st Prize in a local Math Olympiade</a></li>
-        <hr>
-        <li><a href="https://www.mathe-kaenguru.de/" target=”_blank”>1st Prize in a national Math Competition</a></li>
-        <li><a href="https://www.sjr-erlangen.de/WP/" target=”_blank”>Carer at the Local Youth Administration</a></li>
-        <hr>
-    </ul>
-    <div id="div7">
-        <section></section>
-    </div>
-    <div id="div8">
-        <section></section>
-    </div>
-<iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe>
-    <section id="author">
-        <div id="div5">My Favourite Author:</div>
-        <div id="div16">Bill Bryson is a travel author, who has written critically acclaimed books, such as "Neither here nor there" in which he explores Europe. All of his Books are informative, but witty. </div>
-        <div id="div9">
-            <section></section>
-        </div>
-    </section>
-    <div id="media" style="border:solid;"></div>
-    <div class="DEAD">
-        <div class="icons"><a href="https://www.facebook.com/bill.xiang.1650/"><i class="icon-social-facebook"></i></a></div>
-        <div class="icons"><a href="https://www.instagram.com/erlangenhiatus/"><i class="icon-social-instagram" style="text-decoration:none"></i></a></div>
-        <div class="icons"><a href="https://linktr.ee/Cessie_Blanco"><i class="icon-ghost"></i></a></div>
-        <div class="icons"><a href="https://github.com/billnews"><i class="icon-social-github"></i></a></div>
-        <div class="icons"><a href="https://linktr.ee/Cessie_Blanco"><i class="icon-bubbles"></i></a></div>
-        <br>
-        <div id="div16">All my Socials! Discord:HaileeSteinfeld#0878</div>
-    </div>
-
-
-
-
-    <footer>Copyright Bill Xiang &#169 2023</footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-</body></html>
-
-
-
+        </footer>
+        <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
